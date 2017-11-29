@@ -39,7 +39,7 @@
         "laravel": {
             "providers": [
                 "Bhuvidya\\Countries\\CountriesServiceProvider"
-            ],
+            ]
         }
     }
 }
