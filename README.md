@@ -6,7 +6,9 @@
 
 Laravel Countries is a bundle for Laravel, providing Almost ISO 3166_2, 3166_3, currency, Capital and more for all countries.
 
-**Please note that version 1.4 is Laravel 5 only, older versions of Laravel should use version 1.3.4 instead**
+Bug kudos to Christoph Kempen, on whose work this package is **heavily** based (https://github.com/webpatser/laravel-countries). I ended up doing so many little changes that I thought it best to start my own package.
+
+**Please note that tyhis package is for Laravel 5 only**
 
 ## Installation
 
