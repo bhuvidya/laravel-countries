@@ -20,7 +20,7 @@ class CountriesSeeder extends Seeder
 
         foreach ($countries as $countryId => $country) {
             DB::table(config('countries.table_name'))->insert(array(
-                // 'id' => $countryId,
+                'id' => $countryId,
                 'capital' => $country->capital ?? null,
                 'citizenship' => $country->citizenship ?? null,
                 'country_code' => $country->country_code,
