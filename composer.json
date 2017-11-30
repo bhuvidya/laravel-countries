@@ -1,15 +1,11 @@
 {
     "name" : "bhuvidya/laravel-countries",
     "description" : "Laravel Countries is a bundle for Laravel, providing Almost ISO 3166_2, 3166_3, currency, Capital and more for all countries. Bug kudos to Christoph Kempen, on whose work this package is heavily based (webpatser/laravel-countries).",
-    "authors" : [{
+    "authors" : [
+        {
             "name" : "bhu Boue vidya",
             "email" : "bhuvidya@gmail.com",
             "role" : "developer"
-        }, {
-            "name" : "Christoph Kempen",
-            "email" : "christoph@downsized.nl",
-            "homepage" : "http://downsized.nl/",
-            "role" : "original developer"
         }
     ],
     "keywords" : [
