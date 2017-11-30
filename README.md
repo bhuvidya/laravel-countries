@@ -8,7 +8,7 @@
 
 Laravel Countries is a bundle for Laravel, providing ISO 3166_2, 3166_3, currency, capitals and more for all countries.
 
-Bug kudos to Christoph Kempen, on whose work this package is **heavily** based (https://github.com/webpatser/laravel-countries). I ended up doing so many little changes that I thought it best to start my own package. And this is the first
+Big kudos to Christoph Kempen, on whose work this package is **heavily** based (https://github.com/webpatser/laravel-countries). I ended up doing so many little changes that I thought it best to start my own package. And this is the first
 package I have put together and added to Packagist etc, so I was keen to learn the whole process!
 
 **Please note that this package was tested on Laravel 5.5 - I cannot guarantee it will work on earlier versions. Sorry.**
