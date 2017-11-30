@@ -27,25 +27,40 @@ Edit `app/config/app.php` and add the `provider` and `filter`
     ]
 
 
-## Model
+## Configuration
 
-You can start by publishing the configuration. This is an optional step, it contains the table name and does not need to be altered. If the default name `countries` suits you, leave it. Otherwise run the following command
+You can elect to manage your own configuration. This is an optional step, it only contains the table name and does
+not need to be altered. If the default name `countries` suits you, leave it. Otherwise run the following command
 
-    $ php artisan vendor:publish
+    $ php artisan vendor:publish --provider='Bhuvidya\Countries\CountriesServiceProvider'
 
-Next generate the migration file:
+The config file can then be found at `config/countries.php`.
 
-    $ php artisan countries:migration
-    $ composer dump-autoload
-    
-It will generate the `<timestamp>_setup_countries_table.php` migration and the `CountriesSeeder.php` seeder. To make sure the data is seeded insert the following code in the `seeds/DatabaseSeeder.php`
 
-    //Seed the countries
-    $this->call('CountriesSeeder');
-    $this->command->info('Seeded the countries!'); 
+## Migrations
 
-You may now run it with the artisan migrate command:
+The service provider automatically adds the package's migrations to your app.
 
-    $ php artisan migrate --seed
-    
-After running this command the filled countries table will be available
+
+## Seeding
+
+There is a seeding module in the package. You can either run the seeder manually from the command line:
+
+    $ php artisan db:seed --class='Bhuvidya\Countries\CountriesSeeder'
+
+Otherwise you can add it to one of your app's database seeder files, probably `database/seeds/DatabaseSeeder:
+
+    use Bhuvidya\Countries\CountriesSeeder;
+
+    /**  
+     * Run the database seeds.
+     *    
+     * @return void 
+     */ 
+    public function run()
+    {        
+        ...
+        $this->call(CountriesSeeder::class);
+        ...
+    }
+
