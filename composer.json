@@ -1,35 +1,35 @@
 {
-    "name" : "bhuvidya/laravel-countries",
-    "description" : "Laravel Countries is a bundle for Laravel, providing Almost ISO 3166_2, 3166_3, currency, Capital and more for all countries. Bug kudos to Christoph Kempen, on whose work this package is heavily based (webpatser/laravel-countries).",
-    "authors" : [
+    "name": "bhuvidya/laravel-countries",
+    "description": "Laravel Countries is a bundle for Laravel, providing Almost ISO 3166_2, 3166_3, currency, Capital and more for all countries. Bug kudos to Christoph Kempen, on whose work this package is heavily based (webpatser/laravel-countries).",
+    "authors": [
         {
-            "name" : "bhu Boue vidya",
-            "email" : "bhuvidya@gmail.com",
-            "role" : "developer"
+            "name": "bhu Boue vidya",
+            "email": "bhuvidya@gmail.com",
+            "role": "developer"
         }
     ],
-    "keywords" : [
+    "keywords": [
         "laravel",
         "countries",
         "iso_3166_2",
         "iso_3166_3"
     ],
-    "homepage" : "https://github.com/bhuvidya/laravel-countries",
-    "license" : "MIT",
-    "require" : {
-        "illuminate/support": "~5.1",
-        "php" : ">=7.0.0"
+    "homepage": "https://github.com/bhuvidya/laravel-countries",
+    "license": "MIT",
+    "require": {
+        "illuminate/support": "~5.5.0",
+        "php": ">=7.0.0"
     },
-    "autoload" : {
-        "psr-4" : {
-            "Bhuvidya\\Countries\\" : "src/"
+    "autoload": {
+        "psr-4": {
+            "Bhuvidya\\Countries\\": "src/"
         }
     },
-    "minimum-stability" : "dev",
+    "minimum-stability": "dev",
     "prefer-stable": true,
-    "support" : {
-        "source" : "https://github.com/bhuvidya/laravel-countries",
-        "issues" : "https://github.com/bhuvidya/laravel-countries/issues"
+    "support": {
+        "source": "https://github.com/bhuvidya/laravel-countries",
+        "issues": "https://github.com/bhuvidya/laravel-countries/issues"
     },
     "extra": {
         "laravel": {

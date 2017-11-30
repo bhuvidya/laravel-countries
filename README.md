@@ -1,8 +1,10 @@
 # Laravel Countries
 
-[![Total Downloads](https://poser.pugx.org/bhuvidya/laravel-countries/downloads.svg)](https://packagist.org/packages/bhuvidya/laravel-countries)
-[![Latest Stable Version](https://poser.pugx.org/bhuvidya/laravel-countries/v/stable.svg)](https://packagist.org/packages/bhuvidya/laravel-countries)
-[![Latest Unstable Version](https://poser.pugx.org/bhuvidya/laravel-countries/v/unstable.svg)](https://packagist.org/packages/bhuvidya/laravel-countries)
+[![License](https://poser.pugx.org/bhuvidya/laravel-countries/license?format=flat-square)](https://packagist.org/packages/bhuvidya/laravel-countries)
+[![Total Downloads](https://poser.pugx.org/bhuvidya/laravel-countries/downloads?format=flat-square)](https://packagist.org/packages/bhuvidya/laravel-countries)
+[![Latest Stable Version](https://poser.pugx.org/bhuvidya/laravel-countries/v/stable?format=flat-square)](https://packagist.org/packages/bhuvidya/laravel-countries)
+[![Latest Unstable Version](https://poser.pugx.org/bhuvidya/laravel-countries/v/unstable?format=flat-square)](https://packagist.org/packages/bhuvidya/laravel-countries)
+
 
 Laravel Countries is a bundle for Laravel, providing ISO 3166_2, 3166_3, currency, capitals and more for all countries.
 
