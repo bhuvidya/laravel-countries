@@ -6,6 +6,8 @@
 [![Latest Unstable Version](https://poser.pugx.org/bhuvidya/laravel-countries/v/unstable?format=flat-square)](https://packagist.org/packages/bhuvidya/laravel-countries)
 
 
+**Note I have now switched the semver versioning for my Laravel packages to "match" the latest supported Laravel version.**
+
 Laravel Countries is a bundle for Laravel, providing ISO 3166_2, 3166_3, currency, capitals and more for all countries.
 
 Big kudos to Christoph Kempen, on whose work this package is **heavily** based (https://github.com/webpatser/laravel-countries). I ended up doing so many little changes that I thought it best to start my own package. And this is the first
