@@ -34,6 +34,7 @@ class CountriesSeeder extends Seeder
                 'name' => $country->name,
                 'region_code' => $country->region_code,
                 'sub_region_code' => $country->sub_region_code,
+                'eu' => (bool) $country->eu,
                 'eea' => (bool) $country->eea,
                 'calling_code' => $country->calling_code,
                 'currency_symbol' => $country->currency_symbol ?? null,
