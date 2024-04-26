@@ -30,6 +30,7 @@ class CreateCountriesTable extends Migration
 		    $table->string('name', 255)->default('');
 		    $table->char('region_code', 3)->default('');
 		    $table->char('sub_region_code', 3)->default('');
+		    $table->boolean('eu')->default(0);
 		    $table->boolean('eea')->default(0);
 		    $table->string('calling_code', 3)->nullable();
 		    $table->string('flag', 6)->nullable();
